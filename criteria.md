@@ -26,7 +26,8 @@ contains the answer.
 <!-- e.g. "One of my questions is about a topic only two documents mention, so
      I expect that one to be hard." -->
 
----
+This criteria ensures accuracy.
+
 
 ## 2. Every answer names a source
 
@@ -36,7 +37,7 @@ Every answer the system produces names at least one source document.
 <!-- Why all five and not four? What about your setup makes that achievable —
      or what would have to go wrong for it not to be? -->
 
----
+This criteria ensures reference.
 
 ## 3. The relevance gate stops out-of-corpus questions
 
@@ -53,9 +54,9 @@ in at least 4 of 5 tries.
 <!-- What did your distances look like when you set the cutoff in Milestone 4?
      Was there a clean gap, or did the two groups overlap? -->
 
----
+This criteria ensures that my pipeline responds correctly to questions it does not have answer to.
 
-## 4. Something about your chunks
+## 4. Consistency in the assessments
 
 <!-- YOU WRITE THIS ONE.
 
@@ -71,13 +72,12 @@ in at least 4 of 5 tries.
 
 
 
+When I ask for assessment about a topic, the answer consists of atleast 3 places mentioned in the documents.
 **Why this target:**
 
+This criteria ensures the answers cover majority of the sources which hold the answers.
 
-
----
-
-## 5. Your choice
+## 5. Answers cover all aspects of the inquirers
 
 <!-- YOU WRITE THIS ONE TOO.
 
@@ -89,11 +89,11 @@ in at least 4 of 5 tries.
 
 
 
+The assessments are helpful for visitors of all income brackets.
 **Why this target:**
 
 
-
----
+This criteria ensures my pipelines wholeness.
 
 <!-- ─────────────────────────────────────────────────────────────────────────
      UNIT 2 — read this before you change anything above.
